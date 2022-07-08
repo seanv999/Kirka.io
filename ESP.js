@@ -1,4 +1,5 @@
 (()=>{
+alert('ESP ON')
   const wireFrame = false;
   const original_push = Array.prototype.push;
   Array.prototype.push = function(...args) {
